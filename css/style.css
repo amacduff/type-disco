@@ -50,18 +50,11 @@ table {
 }
 
 /* Main Styles */
-main {
+div {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80%;
-}
-
-footer ul {
-  list-style-type: none;
-}
-footer ul li {
-  display: inline;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
