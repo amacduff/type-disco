@@ -1,0 +1,30 @@
+/* Type Styles */
+
+.one {
+    background-color: #f7f3e8;
+    color: #828d58;
+    overflow: hidden;
+
+    .first-word,
+    .second-word {
+        text-transform: uppercase;
+        float: left;
+        width: 50%;
+    }
+
+    .first-word {
+        font: {
+            family: 'Alegreya Sans', sans-serif;
+        }
+        padding: 25% 0;
+        text-align: right;
+    }
+
+    .second-word {
+        font: {
+            family: 'Roboto Slab', serif;
+        }
+        padding: 29% 0;
+    }
+
+}

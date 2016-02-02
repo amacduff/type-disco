@@ -10,15 +10,24 @@
 
     <body>
 
-        <div id="one">
+        <div class="discovery one">
 
-            <div>
+            <div class="first-word fittext1">
+                <h1>Nomadic</h1>
+            </div>
 
-                <h1>Nomadic Associate</h1>
-
+            <div class="second-word fittext2">
+                <h1>Associate</h1>
             </div>
 
         </div>
+
+        <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+    	<script type="text/javascript">
+    		$(".fittext1").fitText(0.6);
+    		$(".fittext2").fitText(0.7);
+    	</script>
 
     </body>
 
