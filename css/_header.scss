@@ -1,5 +1,30 @@
 /* Header Styles */
 
 header {
-    text-align: center;
+    margin: 10% auto;
+    width: 50%;
+
+    h1,
+    p {
+        font: {
+            family: 'Yanone Kaffeesatz', sans-serif;
+        }
+    }
+
+    h1 {
+        font: {
+            @include fntz(5);
+            weight: 700;
+        }
+        text-transform: uppercase;
+    }
+
+    p {
+        font: {
+            @include fntz(1.5);
+            weight: 300;
+        }
+        margin-top: 2rem;
+    }
+
 }

@@ -1,5 +1,5 @@
 /* Reset */
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:900italic|Roboto+Slab:100);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,700|Alegreya+Sans:900italic|Roboto+Slab:100);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,10 +51,28 @@ table {
 }
 
 /* Variables */
+/* Mixins */
 /* Global Styles */
 /* Header Styles */
 header {
-  text-align: center;
+  margin: 10% auto;
+  width: 50%;
+}
+header h1,
+header p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+header h1 {
+  font-size: 80px;
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+header p {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 2rem;
 }
 
 /* Type Styles */
