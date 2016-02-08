@@ -52,6 +52,11 @@ table {
 
 /* Variables */
 /* Global Styles */
+/* Header Styles */
+header {
+  text-align: center;
+}
+
 /* Type Styles */
 .one {
   background-color: #f7f3e8;
