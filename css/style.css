@@ -53,6 +53,10 @@ table {
 /* Variables */
 /* Mixins */
 /* Global Styles */
+body {
+  background-color: #333333;
+}
+
 /* Header Styles */
 header {
   margin: 10% auto;
