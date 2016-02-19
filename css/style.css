@@ -57,29 +57,6 @@ body {
   background-color: #333333;
 }
 
-/* Header Styles */
-header {
-  color: #ffffff;
-  margin: 10% auto;
-  width: 50%;
-}
-header h1,
-header p {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-}
-header h1 {
-  font-size: 80px;
-  font-size: 5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-header p {
-  font-size: 24px;
-  font-size: 1.5rem;
-  font-weight: 300;
-  margin-top: 2rem;
-}
-
 /* Type Styles */
 .one {
   background-color: #f7f3e8;
@@ -101,6 +78,29 @@ header p {
   font-family: 'Roboto Slab', serif;
   margin-left: -0.25em;
   padding: 19% 0;
+}
+
+/* Footer Styles */
+footer {
+  color: #ffffff;
+  margin: 10% auto;
+  width: 50%;
+}
+footer h1,
+footer p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+footer h1 {
+  font-size: 80px;
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+footer p {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
