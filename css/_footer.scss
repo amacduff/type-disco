@@ -2,30 +2,20 @@
 
 footer {
     color: #ffffff;
-    margin: 10% auto;
-    width: 50%;
-
-    h1,
-    p {
-        font: {
-            family: 'Yanone Kaffeesatz', sans-serif;
-        }
-    }
-
-    h1 {
-        font: {
-            @include fntz(5);
-            weight: 700;
-        }
-        text-transform: uppercase;
-    }
+    margin: 4rem auto;
 
     p {
         font: {
-            @include fntz(1.5);
-            weight: 300;
+            family: 'Geo', sans-serif;
         }
         margin-top: 2rem;
+        text-align: center;
+    }
+
+    a {
+        border-bottom: 2px solid #ffffff;
+        color: #ffffff;
+        text-decoration: none;
     }
 
 }
