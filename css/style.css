@@ -54,6 +54,9 @@ table {
 /* Mixins */
 /* Global Styles */
 /* Type Styles */
+.two {
+  background-color: #666666;
+}
 .two h1 {
   font-family: 'Special Elite', serif;
   font-size: 20px;
