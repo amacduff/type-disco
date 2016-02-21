@@ -55,7 +55,7 @@ table {
 /* Global Styles */
 /* Type Styles */
 .two {
-  background-color: #666666;
+  background: linear-gradient(#999999, #777777);
 }
 .two h1 {
   font-family: 'Special Elite', serif;
