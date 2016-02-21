@@ -1,5 +1,5 @@
 /* Reset */
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:900italic|Roboto+Slab:100|Geo:400);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite|Alegreya+Sans:900italic|Roboto+Slab:100|Geo:400);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,10 +53,6 @@ table {
 /* Variables */
 /* Mixins */
 /* Global Styles */
-body {
-  background-color: #333333;
-}
-
 /* Type Styles */
 .one {
   background-color: #f7f3e8;
@@ -82,12 +78,12 @@ body {
 
 /* Footer Styles */
 footer {
+  background-color: #333333;
   color: #ffffff;
-  margin: 4rem auto;
 }
 footer p {
   font-family: 'Geo', sans-serif;
-  margin-top: 2rem;
+  padding: 2rem 0;
   text-align: center;
 }
 footer a {
