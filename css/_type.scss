@@ -2,7 +2,11 @@
 
 .two {
     h1 {
-        font-family: 'Special Elite', serif;
+        font: {
+            family: 'Special Elite', serif;
+            @include fntz(1.25);
+        }
+        padding: 20% 0;
         text-align: center;
     }
 }
