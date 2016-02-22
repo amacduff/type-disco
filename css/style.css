@@ -55,9 +55,11 @@ table {
 /* Global Styles */
 /* Type Styles */
 .two {
-  background: linear-gradient(#999999, #777777);
+  background: #999999 url(../img/two-bg.jpg) no-repeat center center;
+  background-size: cover;
 }
 .two h1 {
+  color: #666666;
   font-family: 'Special Elite', serif;
   font-size: 20px;
   font-size: 1.25rem;
