@@ -2,8 +2,9 @@
 
 .three {
     background-color: #E91E63;
+    height: 80%;
     margin: 1rem;
-    height: 90%;
+    padding: 4rem;
 
     h1 {
         color: #FFFFFF;
@@ -12,6 +13,12 @@
             @include fntz(3);
         }
     }
+
+    .second-word {
+        font-style: italic;
+        margin-top: 1rem;
+    }
+
 }
 
 .two {

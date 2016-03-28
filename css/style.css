@@ -56,14 +56,19 @@ table {
 /* Type Styles */
 .three {
   background-color: #E91E63;
+  height: 80%;
   margin: 1rem;
-  height: 90%;
+  padding: 4rem;
 }
 .three h1 {
   color: #FFFFFF;
   font-family: 'Sorts Mill Goudy';
   font-size: 48px;
   font-size: 3rem;
+}
+.three .second-word {
+  font-style: italic;
+  margin-top: 1rem;
 }
 
 .two {
