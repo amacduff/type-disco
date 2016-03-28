@@ -1,5 +1,5 @@
 /* Reset */
-@import url(https://fonts.googleapis.com/css?family=Special+Elite|Alegreya+Sans:900italic|Roboto+Slab:100|Geo:400);
+@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy|Special+Elite|Alegreya+Sans:900italic|Roboto+Slab:100|Geo:400);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -54,6 +54,16 @@ table {
 /* Mixins */
 /* Global Styles */
 /* Type Styles */
+.three {
+  background-color: #E91E63;
+  margin: 1rem;
+  height: 90%;
+}
+.three h1 {
+  color: #FFFFFF;
+  font-family: 'Sorts Mill Goudy';
+}
+
 .two {
   background: #999999 url(../img/two-bg.jpg) no-repeat center center;
   background-size: cover;
