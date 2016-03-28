@@ -9,6 +9,7 @@
         color: #FFFFFF;
         font: {
             family: 'Sorts Mill Goudy';
+            @include fntz(3);
         }
     }
 }
