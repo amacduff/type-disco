@@ -55,9 +55,12 @@ table {
 /* Global Styles */
 /* Type Styles */
 .four {
+  align-items: center;
   background: url("https://images.unsplash.com/photo-1452110040644-6751c0c95836?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a441e2ab516fdcc2444eb8ddf65b923e");
   background-size: cover;
+  display: flex;
   height: 100%;
+  justify-content: center;
 }
 
 .three {
