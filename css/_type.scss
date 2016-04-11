@@ -6,6 +6,16 @@
 
     div {
         text-align: center;
+
+        h1 {
+            color: white;
+            font: {
+                family: 'Leckerli One', cursive;
+                size: 5rem;
+            }
+            text-shadow: -2px 2px 0 #E65100;
+        }
+
     }
 
 }
