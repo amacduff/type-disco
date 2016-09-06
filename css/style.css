@@ -55,7 +55,8 @@ table {
 /* Global Styles */
 /* Type Styles */
 .six div h1 {
-  font: 'Sniglet', cursive;
+  font-family: 'Sniglet', cursive;
+  font-weight: 800;
 }
 
 .five {

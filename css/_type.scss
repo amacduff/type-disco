@@ -4,7 +4,10 @@
     div {
 
         h1 {
-            font: 'Sniglet', cursive;
+            font: {
+                family: 'Sniglet', cursive;
+                weight: 800;
+            }
         }
 
     }
