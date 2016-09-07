@@ -54,6 +54,9 @@ table {
 /* Mixins */
 /* Global Styles */
 /* Type Styles */
+.six div {
+  height: 100%;
+}
 .six div h1 {
   font-family: 'Sniglet', cursive;
   font-weight: 800;
