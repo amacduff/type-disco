@@ -55,6 +55,7 @@ table {
 /* Global Styles */
 /* Type Styles */
 .six div {
+  background: #e79a00 url(../img/sesame-bg.jpg) repeat;
   padding: 15% 10%;
 }
 .six div h1 {
