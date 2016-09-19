@@ -54,9 +54,11 @@ table {
 /* Mixins */
 /* Global Styles */
 /* Type Styles */
+.seven {
+  padding: 20% 10%;
+}
 .seven div {
   background: url(../img/linedpaper.png) repeat;
-  padding: 20% 10%;
 }
 .seven div h1 {
   color: #1565C0;
