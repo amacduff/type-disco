@@ -54,6 +54,15 @@ table {
 /* Mixins */
 /* Global Styles */
 /* Type Styles */
+.seven div {
+  background: url(../img/linedpaper.png) repeat;
+  padding: 20% 10%;
+}
+.seven div h1 {
+  color: #1565C0;
+  font-family: 'Reenie Beanie', cursive;
+}
+
 .six div {
   background: #e79a00 url(../img/sesame-bg.jpg) repeat;
   padding: 15% 10%;
