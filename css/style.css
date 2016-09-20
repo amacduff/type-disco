@@ -62,6 +62,7 @@ table {
   color: #1565C0;
   font-family: 'Reenie Beanie', cursive;
   font-size: 3rem;
+  text-transform: lowercase;
 }
 
 .six div {
